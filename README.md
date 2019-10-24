@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Voici FreeDoc
 
-Things you may want to cover:
+pour recup le fichier :
 
-* Ruby version
+$ git clone https://github.com/romzych/FreeDoc.git
 
-* System dependencies
+pour initialiser rentrer dans le fichier puis
 
-* Configuration
+$ bundle install
 
-* Database creation
+pour generer des entrées dans la bdd
 
-* Database initialization
+$ rails db:seed
 
-* How to run the test suite
+pour aller voir les tables
 
-* Services (job queues, cache servers, search engines, etc.)
+$ rails c
+$ tp NomDeLaTable.all
 
-* Deployment instructions
+pour quitter le teminal rails 
 
-* ...
+$ exit
+
