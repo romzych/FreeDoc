@@ -17,6 +17,7 @@ $ rails db:seed
 pour aller voir les tables
 
 $ rails c
+
 $ tp NomDeLaTable.all
 
 pour quitter le teminal rails 
